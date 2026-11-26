@@ -1,0 +1,8 @@
+name: postgres
+description: >-
+  PostgreSQL persistence provider — stores each profile's sessions, messages and
+  runtime state in its own schema of a Postgres database instead of state.db.
+  Inert unless persistence.provider=postgres in config.yaml.
+version: 0.1.0
+author: Rahul Varma
+kind: exclusive
